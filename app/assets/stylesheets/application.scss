@@ -1,9 +1,32 @@
-@import "components/background.scss";
-@import "components/card.scss";
+@import "components/stack.scss";
+@import "components/text.scss";
 
 body {
-  // font-family: 'Inter';
+  font-family: "Merriweather", serif;
   a {
     text-decoration: none;
-  };
+    padding: 10px;
+    background-color: rgba(4, 143, 143, 0.6);
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 150px;
+  font-size: 7vw;
+  line-height : 0.8;
+}
+
+
+.title-section{
+  text-align: right;
+  width: 60%;
+  padding-right: 15px;
+  background: linear-gradient(-45deg, #0d396f, #3c64e7, #23a6d5, #c7ece4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.child {
+  display: inline-block;
 }

@@ -1,59 +1,97 @@
 <div class="container background">
-  <div class="animation-container">
-    <div class="shape1"></div>
-    <div class="shape2"></div>
-    <div class="shape3"></div>
-    <div class="shape4"></div>
-    <div class="shape5"></div>
-    <div class="shape6"></div>
-  </div>
-
   <div class="title-section child">
     <h1>Leon <br> Brimacombe</h1>
     <h2>Backend Developer</h2>
   </div>
 
-  <div class="image-section child"><img class="image-shadow" src=images/headshot.JPEG alt=”Leon-Profile-Photo”></div>
+  <div class="image-section child">
+    <img class="image-shadow" src="images/headshot.JPEG" alt="Leon-Profile-Photo">
+  </div>
 
   <div class="container">
-    <button onclick="showContact()" class="contact-button">Contact info</button>
-
-    <div id="hidden-contact">
-      <p><i class="fa-solid fa-envelope"></i> leonbrimacombe@gmail.com</p>
-      <p><i class="fa-solid fa-phone"></i> +447584094343</p>
-      <p><i class="fa-solid fa-location-pin"></i> London, UK</p>
-    </div>
-
-    <div id="section-highlight" class="card-white">
-      <h3> About me </h3>
-        <p>
-          Hi, I’m Leon! A Full-Stack Developer with three years experience in the dynamic Fast-Moving Cosumer Goods sector.
-        </p>
-        <p>
-          </br>Having started my career in Supply Chain, I am eager to apply my unique operational perspective to a dynamic development team where I can continue learning and contribute to impactful projects.
-        </p>
-    </div>
-
-    <div class="card-white">
-        <h3> Previous projects </h3>
-        <ul class="list-inline">
-          <li><strong>Profitability Calculator</strong> - A sales tool, used in-field, across a 45-person sales team. Generates sales agreement, to be signed in-app and outputs as PDF attachment in email to customer.</li>
-          <li><br><strong>AirBnB Clone</strong> - A clone of AirBnB.</li>
-        </ul>
-
-        <br>
-        <h3> Languages </h3>
-        <p>HTML, CSS, JavaScript, Ruby on Rails, Sigma, Git Github, SQL, Heroku, R, STATA</p>
-    </div>
-
-    <div class="text-closing">
-      <h3>
-        Follow me
-      </h3>
-      <ul class="list-inline">
-        <li><a class="link-icons" href="https://github.com/LeonBrimacombe" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-        <li><a class="link-icons" href="https://www.linkedin.com/in/lbrimacombe/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-      </ul>
+    <section class="about">
+      <div id="section-highlight" class="card-white">
+        <h3> About me </h3>
+          <p>
+            Hi, I’m Leon! A Full-Stack Developer with three years experience in the dynamic Fast-Moving Cosumer Goods sector.
+          </p>
+          <p>
+            <br>Having started my career in Supply Chain, I am eager to apply my unique operational perspective to a dynamic development team where I can continue learning and contribute to impactful projects.
+          </p>
       </div>
-    </div>
+
+      <div class="tech-stack">
+        <h5>Tech Stack</h5>
+
+        <div class="tech">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png" alt="ruby-logo">
+          <p>Ruby</p>
+        </div>
+        <div class="tech">
+          <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="javascript-logo">
+          <p>Javascript</p>
+        </div>
+
+        <div class="tech">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png" alt="HTML-logo">
+          <p>HTML</p>
+        </div>
+
+        <div class="tech">
+          <img src="https://sass-lang.com/assets/img/styleguide/seal-color.png" alt="SCSS-logo">
+          <p>SCSS</p>
+        </div>
+
+        <div class="tech">
+          <img src="https://huyza.gallerycdn.vsassets.io/extensions/huyza/dax-language/0.0.2/1628621363691/Microsoft.VisualStudio.Services.Icons.Default" alt="DAX-logo">
+          <p>DAX</p>
+        </div>
+
+        <div class="tech">
+          <img src="https://static.wixstatic.com/media/816382_bd664a10b4ec4239b7f9739dbd210863~mv2.png/v1/fill/w_420,h_420,al_c,lg_1,q_85/816382_bd664a10b4ec4239b7f9739dbd210863~mv2.png" alt="PowerFX-logo">
+          <p>PowerFX</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="projects">
+      <h3>PROJECTS</h3>
+
+      <div class="project left">
+        <img src="images/property-sphere.png" alt="property-sphere-landing-page">
+        <h4>Property Sphere</h4>
+        <p>A centralised search and organisational tool that scrapes major sites and leverages location APIs to offer advanced filtering</p>
+        <%= link_to "Live App", "https://property-sphere-f0c399e44756.herokuapp.com/"%>
+        <%= link_to "Learn More", "https://github.com/LeonBrimacombe/property-sphere"%>
+      </div>
+
+      <div class="project right">
+        <img src="images/tool-shared.jpg" alt="tool-shared-landing-page">
+        <h4>Tool Shared</h4>
+        <p>A market place for users to list and rent tools in their local area</p>
+        <%= link_to "Live App", ""%>
+        <%= link_to "Learn More", "https://github.com/LeonBrimacombe/tool-shared"%>
+      </div>
+
+      <div class="project left">
+        <h4>Sales Profitability Calculator</h4>
+        <p></p>
+        <%= link_to "Live App", ""%>
+        <%= link_to "Learn More", "https://github.com/LeonBrimacombe/tool-shared"%>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h3>Contact</h3>
+
+    </section>
+
+    <section class="footer">
+      <div class="socials">
+        <a class="link-icons" href="https://github.com/LeonBrimacombe" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a class="link-icons" href="https://www.linkedin.com/in/lbrimacombe/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </section>
 </div>

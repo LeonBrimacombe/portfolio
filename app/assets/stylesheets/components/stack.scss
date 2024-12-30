@@ -1,0 +1,16 @@
+.tech {
+  width: 45px;
+  display: flex;
+  text-align: center;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+}
+
+.tech-stack {
+  display: grid;
+  margin: auto;
+}
