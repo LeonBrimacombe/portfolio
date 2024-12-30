@@ -1,0 +1,12 @@
+.contact-card{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.904);
+  background: rgba(0,0,0,.8);
+  padding: 5px;
+}
+
+.contact-card a{
+  position: absolute;
+}
