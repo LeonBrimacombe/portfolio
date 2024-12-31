@@ -2,7 +2,8 @@
 @import "components/text.scss";
 
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Monsterrat", sans-serif;
+  background-color: #191e23;
   a {
     text-decoration: none;
     padding: 10px;
@@ -12,9 +13,9 @@ body {
 
 h1 {
   text-transform: uppercase;
-  font-weight: 150px;
+  font-weight: 150;
   font-size: 7vw;
-  line-height : 0.8;
+  line-height: 0.8;
 }
 
 
@@ -22,9 +23,6 @@ h1 {
   text-align: right;
   width: 60%;
   padding-right: 15px;
-  background: linear-gradient(-45deg, #0d396f, #3c64e7, #23a6d5, #c7ece4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .child {
