@@ -1,122 +1,141 @@
-<div class="container background">
-  <div class="title-section child">
-    <h1>Leon <br> Brimacombe</h1>
-    <h2>Backend Developer</h2>
-  </div>
+<div class="container">
+  <section id="home">
+    <div class="title-section child">
+      <h1>Leon <br> Brimacombe</h1>
+      <h2>Backend Developer</h2>
+    </div>
 
-  <div class="image-section child">
-    <img class="image-shadow" src="./app/assets/images/headshot.JPEG" alt="Leon-Profile-Photo">
-  </div>
+    <div class="image-section child">
+      <img class="image-shadow" src="/app/assets/images/headshot.jpg" alt="Leon-Profile-Photo">
+    </div>
 
-  <div class="container">
-    <section class="about">
-      <div>
-        <p>
-          Fueled by a commitment to lifelong learning, I have found a love for the ever-evolving world of software. For me, programming sits at the intersection of of creativity, methodical thinking, and steep-learning curves, providing the perfect challenge. Whether it's building custom solutions or diving into new frameworks, each obstacle gives a new opportunity to innovate.
-        </p>
-        <p>
-          Welcome to my portfolio...
-        </p>
-      </div>
-      <div id="section-highlight" class="card-white">
-        <h3> Background </h3>
-        <p>
-          Hello! I am Leon, an enthusiastic career changer with three years experience in supply chain, geering up to focus my expertise and data background into development. In my career so far, I have discovered the key to my professional fulfillment is continuous learning. When I first encountered programming, using R for statistical analysis in my Economics degree, I spent hours beyond the scope of the course creating descriptive statistics visuals. The ability to translate intricate information into digestible material opened the gateway for my love of code.
-        </p>
-        <p>
-          Fast forward to my career in supply chain, I began with data analytics using DAX and SQL and three years later ended up building my first custom platform for internal use. Over the following 4 months I developed three platforms and began collaborating with other business functions across sales, finance and operations to support their diverse needs.
-        </p>
-        <p>
-          Having little resources and relying heavily on my own curiosity and research ability was energising and ultimately ignited my move into software engineering. Landing me where I am today, with 450+ hours of coding under my belt and a BCS-accredited certificate in Web Development with AI, I am excited to focus my unique operational perspective into a dynamic development team where I can continue learning and have an impact.
-        </p>
-        <%= link_to "Previous career", "https://www.linkedin.com/in/lbrimacombe/"%>
-        <%= link_to "View my work", "https://property-sphere-f0c399e44756.herokuapp.com/"%>
-      </div>
+    <div>
+      <p>
+        Fueled by a commitment to lifelong learning, I have found a love for the ever-evolving world of software. For me, programming sits at the intersection of of creativity, methodical thinking, and steep-learning curves, providing the perfect challenge. Whether it's building custom solutions or diving into new frameworks, each obstacle gives a new opportunity to innovate.
+      </p>
+      <%= link_to "View my work ↓", "#projects"%>
+    </div>
+  </section>
 
-      <div class="tech-stack">
-        <h5>Tech Stack</h5>
+  <nav class="navigation-bar">
+    <ul class="navigation">
+      <li class="navigation__item" id="nav-home">
+        <a href="#home">Home</a>
+      </li>
 
-        <div class="tech">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png" alt="ruby-logo">
-          <p>Ruby</p>
-        </div>
+      <li class="navigation__item" id="nav-about">
+        <a href="#about">About</a>
+      </li>
 
-        <div class="tech">
-          <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="javascript-logo">
-          <p>Javascript</p>
-        </div>
+      <li class="navigation__item" id="nav-projects">
+        <a href="#projects">Projects</a>
+      </li>
 
-        <div class="tech">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="python-logo">
-          <p>Python</p>
-        </div>
-
-        <div class="tech">
-          <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png" alt="HTML-logo">
-          <p>HTML</p>
-        </div>
-
-        <div class="tech">
-          <img src="https://sass-lang.com/assets/img/styleguide/seal-color.png" alt="SCSS-logo">
-          <p>SCSS</p>
-        </div>
-
-        <div class="tech">
-          <img src="https://huyza.gallerycdn.vsassets.io/extensions/huyza/dax-language/0.0.2/1628621363691/Microsoft.VisualStudio.Services.Icons.Default" alt="DAX-logo">
-          <p>DAX</p>
-        </div>
-
-        <div class="tech">
-          <img src="https://static.wixstatic.com/media/816382_bd664a10b4ec4239b7f9739dbd210863~mv2.png/v1/fill/w_420,h_420,al_c,lg_1,q_85/816382_bd664a10b4ec4239b7f9739dbd210863~mv2.png" alt="PowerFX-logo">
-          <p>PowerFX</p>
-        </div>
-
-      </div>
-    </section>
+      <li class="navigation__item" id="nav-contact">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
 
-    <section class="projects">
-      <h3>Projects</h3>
+  <section id="about">
+    <div id="background">
+      <h3> Background </h3>
+      <p>
+        Hello! I am Leon, an enthusiastic career changer with three years experience in supply chain, geering up to focus my expertise and data background into development. In my career so far, I have discovered the key to my professional fulfillment is continuous learning. When I first encountered programming, using R for statistical analysis in my Economics degree, I spent hours beyond the scope of the course creating descriptive statistics visuals. The ability to translate intricate information into digestible material opened the gateway for my love of code.
+      </p>
+      <p>
+        Fast forward to my career in supply chain, I began with data analytics using DAX and SQL and three years later ended up building my first custom platform for internal use. Over the following 4 months I developed three platforms and began collaborating with other business functions across sales, finance and operations to support their diverse needs.
+      </p>
+      <p>
+        Having little resources and relying heavily on my own curiosity and research ability was energising and ultimately ignited my move into software engineering. Landing me where I am today, with 450+ hours of coding under my belt and a BCS-accredited certificate in Web Development with AI, I am excited to focus my unique operational perspective into a dynamic development team where I can continue learning and have an impact.
+      </p>
+    </div>
 
-      <div class="project left">
-        <img src="images/property-sphere.png" alt="property-sphere-landing-page">
-        <h4>Property Sphere</h4>
-        <p>A centralised search and organisational tool that scrapes major sites and leverages location APIs to offer advanced filtering</p>
-        <%= link_to "Live App", "https://property-sphere-f0c399e44756.herokuapp.com/"%>
-        <%= link_to "Learn More", "https://github.com/LeonBrimacombe/property-sphere"%>
+    <div class="tech-stack">
+      <h5>Tech Stack</h5>
+
+      <div class="tech">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png" alt="ruby-logo">
+        <p>Ruby</p>
       </div>
 
-      <div class="project right">
-        <img src="images/tool-shared.jpg" alt="tool-shared-landing-page">
-        <h4>Tool Shared</h4>
-        <p>A market place for users to list and rent tools in their local area</p>
-        <%= link_to "Live App", ""%>
-        <%= link_to "Learn More", "https://github.com/LeonBrimacombe/tool-shared"%>
+      <div class="tech">
+        <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="javascript-logo">
+        <p>Javascript</p>
       </div>
 
-      <div class="project left">
-        <h4>Sales Profitability Calculator</h4>
-        <p>A customer-facing sales tool displaying profit comparisons for home versus competitor brands, used across a 45-person sales team.</p>
-        <p>Used as a conversation tool, sales team members and customers discuss terms of sale and input to produce profitability breakdown. These inputs then untilise JSON to populate a sales agreement, that is signed in-app and emailed to new customer. </p>
+      <div class="tech">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="python-logo">
+        <p>Python</p>
       </div>
 
-      <div class="project left">
-        <h4>Stock Ordering Portal</h4>
-        <p>A </p>
+      <div class="tech">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png" alt="HTML-logo">
+        <p>HTML</p>
       </div>
 
-    </section>
-
-    <section class="contact">
-      <h3>Contact</h3>
-
-    </section>
-
-    <section class="footer">
-      <div class="socials">
-        <a class="link-icons" href="https://github.com/LeonBrimacombe" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a class="link-icons" href="https://www.linkedin.com/in/lbrimacombe/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <p>LEON BRIMACOMBE ©2024</p>
+      <div class="tech">
+        <img src="https://sass-lang.com/assets/img/styleguide/seal-color.png" alt="SCSS-logo">
+        <p>SCSS</p>
       </div>
-    </section>
+
+      <div class="tech">
+        <img src="https://huyza.gallerycdn.vsassets.io/extensions/huyza/dax-language/0.0.2/1628621363691/Microsoft.VisualStudio.Services.Icons.Default" alt="DAX-logo">
+        <p>DAX</p>
+      </div>
+
+      <div class="tech">
+        <img src="https://static.wixstatic.com/media/816382_bd664a10b4ec4239b7f9739dbd210863~mv2.png/v1/fill/w_420,h_420,al_c,lg_1,q_85/816382_bd664a10b4ec4239b7f9739dbd210863~mv2.png" alt="PowerFX-logo">
+        <p>PowerFX</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <h3>Projects</h3>
+
+    <div class="project left">
+      <img src="images/property-sphere.png" alt="property-sphere-landing-page">
+      <h4>Property Sphere</h4>
+      <p>A centralised search and organisational tool that scrapes major sites and leverages location APIs to offer advanced filtering</p>
+      <%= link_to "Live App", "https://property-sphere-f0c399e44756.herokuapp.com/"%>
+      <%= link_to "Learn More", "https://github.com/LeonBrimacombe/property-sphere"%>
+    </div>
+
+    <div class="project right">
+      <img src="images/tool-shared.jpg" alt="tool-shared-landing-page">
+      <h4>Tool Shared</h4>
+      <p>A market place for users to list and rent tools in their local area</p>
+      <%= link_to "Live App", ""%>
+      <%= link_to "Learn More", "https://github.com/LeonBrimacombe/tool-shared"%>
+    </div>
+
+    <div class="project left">
+      <h4>Sales Profitability Calculator</h4>
+      <p>A customer-facing sales tool displaying profit comparisons for home versus competitor brands, used across a 45-person sales team.</p>
+      <p>Used as a conversation tool, sales team members and customers discuss terms of sale and input to produce profitability breakdown. These inputs then untilise JSON to populate a sales agreement, that is signed in-app and emailed to new customer. </p>
+    </div>
+
+    <div class="project left">
+      <h4>Stock Ordering Portal</h4>
+      <p>A </p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+
+  </section>
+
+  <section id="footer">
+    <div class="socials">
+      <a class="link-icons" href="https://github.com/LeonBrimacombe" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a class="link-icons" href="https://www.linkedin.com/in/lbrimacombe/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <p>LEON BRIMACOMBE ©2024</p>
+    </div>
+  </section>
 </div>

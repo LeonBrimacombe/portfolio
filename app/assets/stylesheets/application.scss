@@ -1,14 +1,10 @@
-@import "components/stack.scss";
-@import "components/text.scss";
+@import "/app/assets/stylesheets/components/stack.scss";
+@import "/app/assets/stylesheets/components/colors.scss";
 
 body {
   font-family: "Monsterrat", sans-serif;
-  background-color: #191e23;
-  a {
-    text-decoration: none;
-    padding: 10px;
-    background-color: rgba(4, 143, 143, 0.6);
-  }
+  color: $primary;
+  background-color: $background;
 }
 
 h1 {

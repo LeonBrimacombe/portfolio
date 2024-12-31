@@ -1,8 +1,6 @@
 .tech {
-  width: 45px;
-  display: flex;
-  text-align: center;
-
+  width: 30px;
+  display: grid;
   img {
     display: block;
     margin: 0 auto;
@@ -12,4 +10,6 @@
 
 .tech-stack {
   display: flex;
+  text-align: center;
+  width: 45px;
 }
