@@ -1,6 +1,10 @@
-a{
-  text-decoration: none;
-  color: $text;
-  border: 2px solid $call-to-action;
-  padding: 14px 28px;
+.button {
+    a{
+    text-decoration: none;
+    color: $text;
+    border: 2px solid $call-to-action;
+    border-radius: 8px;
+    padding: 14px 28px;
+    margin: 2px;
+  }
 }
