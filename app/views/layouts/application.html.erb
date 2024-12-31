@@ -9,12 +9,13 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbo-track': 'reload' %>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <link rel="icon" type="image/png" sizes="32x32" href="app/assets/images/favicon-32x32.jpg">
 
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    <%= javascript_importmap_tags %>
 
   </head>
 

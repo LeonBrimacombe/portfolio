@@ -1,5 +1,35 @@
-#header {
+#home {
   height: 100vh;
+  .title-section{
+    text-align: right;
+    width: 60%;
+    padding-right: 15px;
+    .child {
+      display: inline-block;
+    }
+  }
+  .intro {
+    width: 500px;
+    display: flex;
+    text-align: center;
+  }
+  .image-shadow
+    {box-shadow: 5px 5px 3px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vw;
+    margin-top: 100px;
+  }
+}
+
+#projects {
+  .right {
+    float: right;
+  }
+  .left {
+    float: left;
+  }
 }
 
 .background {

@@ -5,11 +5,29 @@ nav {
   background-color: $secondary-background;
   position: sticky;
   top: 0;
-  height: 6rem;
+  height: 3rem;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     li {
-      padding: 15px
+      float: right;
+      .active {
+        background-color: $background;
+      }
+      a{
+        display: block;
+        color: $text;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      a:hover {
+        background-color: #111;
+      }
     }
+
   }
 }

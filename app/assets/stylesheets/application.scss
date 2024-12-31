@@ -1,9 +1,14 @@
-@import "/app/assets/stylesheets/components/stack.scss";
-@import "/app/assets/stylesheets/components/colors.scss";
+@import "components/colors.scss";
+@import "components/section.scss";
+@import "components/button.scss";
+@import "components/nav-bar.scss";
+@import "components/stack.scss";
+
+
 
 body {
   font-family: "Monsterrat", sans-serif;
-  color: $primary;
+  color: $text;
   background-color: $background;
 }
 
@@ -12,15 +17,4 @@ h1 {
   font-weight: 150;
   font-size: 7vw;
   line-height: 0.8;
-}
-
-
-.title-section{
-  text-align: right;
-  width: 60%;
-  padding-right: 15px;
-}
-
-.child {
-  display: inline-block;
 }

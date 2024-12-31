@@ -20,7 +20,7 @@ Rails.application.configure do
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
   if Rails.root.join("tmp/caching-dev.txt").exist?
-    config.action_controller.perform_caching = true
+    config.action_controller.perform_caching = false
     config.action_controller.enable_fragment_cache_logging = true
 
     config.cache_store = :memory_store
@@ -60,7 +60,10 @@ Rails.application.configure do
   config.active_job.verbose_enqueue_logs = true
 
   # Suppress logger output for asset requests.
-  config.assets.quiet = true
+  config.assets.debug = true
+  config.assets.compile = true
+  config.assets.digest = false
+
 
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
