@@ -1,30 +1,14 @@
-#home {
-  height: 100vh;
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#home {
+  height: 100vh;
   background-color: $background;
-  background-image: $gradient
-
-/* home background animations */
-/*   canvas {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    a {
-      position: absolute;
-      bottom: 2vmin;
-      right: 2vmin;
-      color: rgba(255,255,255,0.2);
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: $text;
-    }
-  }
- */
+  background-image: $gradient;
   .title-section{
     display: flex;
     align-items: center;
@@ -32,67 +16,70 @@
       text-align: right;
       width: 60%;
       padding-right: 15px;
+      h2 {
+        font-weight: 100;
+      }
     }
     img {
       box-shadow: 5px 5px 3px black;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 25vw;
+      height: 40vh;
     }
   }
 }
 
 #about {
-  height: 100vh;
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .intro {
-    display: flex;
-    text-align: left;
-    align-self: justify;
-  }
-  .about-icon {
-    font-size: 200px;
-    background-image: $gradient
+  height: 95vh;
+  width: 40vw;
+  .icon {
+    margin-top: 32px;
   }
 }
 
 #projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-top: 40px;
   .project{
     display: flex;
-    .left {
+    align-items: center;
+    margin: 40px 0px;
+    .project-info{
+      margin: 0px 16px;
+      height: 25vh;
+      width: 30vw;
+    }
+    .project-left {
       align-self: flex-start;
     }
-    .right {
+    .project-right {
       align-self: flex-end;
+      text-align: right;
     }
     img {
       box-shadow: 5px 5px 3px black;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 40vw;
+      height: 40vh;
     }
+  }
+}
+
+#wips {
+  .wips {
+    display: flex;
+    align-items: center;
+    margin: 24px 0px;
     p {
       width: 40vw;
+      margin-left: 16px;
     }
   }
 }
 
 #footer {
-  height: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 10vh;
   background-image: $gradient;
   .socials {
     .link-icons {

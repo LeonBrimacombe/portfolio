@@ -3,7 +3,7 @@
     <div class="title-section">
       <div class="title">
         <h1>Leon <br> Brimacombe</h1>
-        <h2>Backend Developer</h2>
+        <h2>Fullstack Developer</h2>
       </div>
       <%= image_tag 'headshot.jpg', :alt =>"leon-headshot-photo"%>
     </div>
@@ -32,9 +32,9 @@
 
 
   <section id="about">
-    <i class="fa-solid fa-circle-user about-icon"></i>
+    <i class="fa-solid fa-circle-user icon"></i>
     <p class="intro">
-      Fueled by a commitment to learning and growth, I have found a love for the ever-evolving world of software. For me, programming sits at the intersection of creativity, methodical thinking, and steep-learning curves, providing the perfect challenge. Whether it's building custom solutions or diving into new frameworks, each obstacle gives a new opportunity to innovate and re-invent.
+      Fueled by a personal commitment to learning and growth, I have found a love for the ever-evolving world of software. For me, programming sits at the intersection of creativity, methodical thinking, and steep learning curves, providing the perfect challenge. Whether it's building custom solutions or diving into new frameworks, each obstacle gives a new opportunity to innovate and invent.
     </p>
 
     <div class="tech-stack">
@@ -74,7 +74,7 @@
       </div>
     </div>
 
-    <%= link_to "More about me", :class => "button-primary", :id => "about-toggles"%>
+    <a href="" class="button-secondary" id="about-toggle">More about me</a>
 
     <div id="background" class="hidden">
       <h3> Background </h3>
@@ -96,35 +96,50 @@
 
     <div class="project project-left">
       <%= image_tag "property-sphere.png", :alt => "property-sphere-landing-page"%>
-      <div>
+      <div class="project-info">
         <h4>Property Sphere</h4>
         <p>A centralised search and organisational tool that scrapes major sites and leverages location APIs to offer advanced filtering</p>
-        <%= link_to "Live App", "https://property-sphere-f0c399e44756.herokuapp.com/", :class => "button-secondary"%>
+        <%= link_to "Live App", "https://property-sphere-f0c399e44756.herokuapp.com/", :class => "button-primary"%>
         <%= link_to "Learn More", "https://github.com/LeonBrimacombe/property-sphere", :class => "button-secondary"%>
       </div>
     </div>
 
     <div class="project project-right">
-      <div>
+      <div class="project-info">
         <h4>Tool Shared</h4>
         <p>A market place for users to list and rent tools in their local area</p>
-        <%= link_to "Live App", "", :class => "button-secondary"%>
+        <%= link_to "Live App", "", :class => "button-primary"%>
         <%= link_to "Learn More", "https://github.com/LeonBrimacombe/tool-shared", :class => "button-secondary"%>
       </div>
       <%= image_tag "tool-shared.jpg", :alt => "tool-shared-landing-page"%>
     </div>
 
     <div class="project project-left">
-      <h4>Sales Profitability Calculator</h4>
-      <p>A customer-facing sales tool displaying profit comparisons for home versus competitor brands, used across a 45-person sales team.</p>
-      <p>Used as a conversation tool, sales team members and customers discuss terms of sale and input to produce profitability breakdown. These inputs then untilise JSON to populate a sales agreement, that is signed in-app and emailed to new customer. </p>
+      <%= image_tag "tool-shared.jpg", :alt => "tool-shared-landing-page"%>
+      <div class="project-info">
+        <h4>Sales Profitability Calculator</h4>
+        <div>
+          <p>A customer-facing sales tool displaying profit comparisons for home versus competitor brands.</p>
+          <p class=">Used across a 45-person sales team, team member inputs populate a sales agreement, that is signed and emailed to customer in-app. </p>
+        </div>
+      </div>
     </div>
 
     <div class="project project-right">
-      <h4>Stock Ordering Portal</h4>
-      <p>A </p>
+      <div class="project-info">
+        <h4>Stock Ordering Portal</h4>
+        <p>A internal stock ordering portal that takes customer orders and output details in an email to the fulfilment team.</p>
+      </div>
+      <%= image_tag "tool-shared.jpg", :alt => "tool-shared-landing-page"%>
     </div>
+  </section>
 
+  <section id="wips">
+    <h3>Works in Progress</h3>
+    <div class="wips">
+      <i class="fa-solid fa-clipboard-check icon"></i>
+      <p>Currently working on a freelance Python platform with Django showing users their homes energy consumption accessed via In-home Dispay (IHD) APIs.</p>
+    </div>
   </section>
 
   <section id="contact">
