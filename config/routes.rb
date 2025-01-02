@@ -9,6 +9,6 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   root to: "pages#home"
-  get "about", to: "pages#about"
+  resources :contact_form, only: %i[new create]
 
 end
