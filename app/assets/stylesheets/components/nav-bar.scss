@@ -2,10 +2,11 @@ nav {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  background-color: $secondary-background;
+  background-color: $background-secondary;
   position: sticky;
   top: 0;
   height: 3rem;
+  width: 100vw;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
   ul {
     list-style-type: none;

@@ -5,7 +5,7 @@ var button = document.querySelector('#about-toggle');
 var background = document.querySelector('#background');
 
 button.addEventListener('click', () => {
-  element.classList.toggle("red");
+  element.classList.toggle("hidden");
 });
 
 

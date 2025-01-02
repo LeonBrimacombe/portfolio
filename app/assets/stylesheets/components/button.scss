@@ -1,6 +1,6 @@
 .button-primary {
     text-decoration: none;
-    color: $text;
+    color: $call-to-action;
     border: 2px solid $call-to-action;
     border-radius: 8px;
     padding: 14px 28px;
@@ -10,8 +10,8 @@
 .button-secondary {
   text-decoration: none;
   color: $text;
-  border: 2px solid $text;
+  border: 1px solid $text;
   border-radius: 8px;
-  padding: 14px 28px;
-  margin: 2px;
+  padding: 10px 20px;
+  margin: 8px;
 }

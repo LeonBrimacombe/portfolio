@@ -6,6 +6,8 @@
   .tech {
     width: 30px;
     display: grid;
+    margin: 15px;
+    background-color: $background-secondary;
     p {
       text-transform: uppercase;
       line-height: 0.5;

@@ -1,16 +1,16 @@
 <div class="container">
   <section id="home">
-      <div class="title-section">
-        <div class="title">
-          <h1>Leon <br> Brimacombe</h1>
-          <h2>Backend Developer</h2>
-        </div>
-        <%= image_tag 'headshot.jpg', :alt =>"leon-headshot-photo"%>
+    <div class="title-section">
+      <div class="title">
+        <h1>Leon <br> Brimacombe</h1>
+        <h2>Backend Developer</h2>
       </div>
-      <%= link_to "View my work ↓", "#projects", :class => "button-primary"%>
+      <%= image_tag 'headshot.jpg', :alt =>"leon-headshot-photo"%>
+    </div>
+    <%= link_to "View my work ↓", "#projects", :class => "button-primary"%>
   </section>
 
-  <nav class="navigation-bar">
+  <nav>
     <ul class="navigation">
       <li>
         <a href="#contact">Contact</a>
@@ -32,6 +32,7 @@
 
 
   <section id="about">
+    <i class="fa-solid fa-circle-user about-icon"></i>
     <p class="intro">
       Fueled by a commitment to learning and growth, I have found a love for the ever-evolving world of software. For me, programming sits at the intersection of creativity, methodical thinking, and steep-learning curves, providing the perfect challenge. Whether it's building custom solutions or diving into new frameworks, each obstacle gives a new opportunity to innovate and re-invent.
     </p>
@@ -73,9 +74,9 @@
       </div>
     </div>
 
-    <%= link_to "More about me", "", :class => "button-primary", :id => "about-toggles"%>
+    <%= link_to "More about me", :class => "button-primary", :id => "about-toggles"%>
 
-    <div id="background">
+    <div id="background" class="hidden">
       <h3> Background </h3>
       <p>
         Hello! I am Leon, an enthusiastic career changer with three years experience in supply chain, geering up to focus my expertise and data background into development. In my career so far, I have discovered the key to my professional fulfillment is continuous learning. When I first encountered programming, using R for statistical analysis in my Economics degree, I spent hours beyond the scope of the course creating descriptive statistics visuals. The ability to translate intricate information into digestible material opened the gateway for my love of code.
@@ -98,8 +99,8 @@
       <div>
         <h4>Property Sphere</h4>
         <p>A centralised search and organisational tool that scrapes major sites and leverages location APIs to offer advanced filtering</p>
-        <%= link_to "Live App", "https://property-sphere-f0c399e44756.herokuapp.com/", :class => "button"%>
-        <%= link_to "Learn More", "https://github.com/LeonBrimacombe/property-sphere", :class => "button"%>
+        <%= link_to "Live App", "https://property-sphere-f0c399e44756.herokuapp.com/", :class => "button-secondary"%>
+        <%= link_to "Learn More", "https://github.com/LeonBrimacombe/property-sphere", :class => "button-secondary"%>
       </div>
     </div>
 
@@ -107,8 +108,8 @@
       <div>
         <h4>Tool Shared</h4>
         <p>A market place for users to list and rent tools in their local area</p>
-        <%= link_to "Live App", "", :class => "button"%>
-        <%= link_to "Learn More", "https://github.com/LeonBrimacombe/tool-shared", :class => "button"%>
+        <%= link_to "Live App", "", :class => "button-secondary"%>
+        <%= link_to "Learn More", "https://github.com/LeonBrimacombe/tool-shared", :class => "button-secondary"%>
       </div>
       <%= image_tag "tool-shared.jpg", :alt => "tool-shared-landing-page"%>
     </div>
@@ -128,7 +129,7 @@
 
   <section id="contact">
     <h3>Contact</h3>
-    <p>If you you would like to know more or want to work together, leave me your details to start a conversation. </p>
+    <p>If you you would like to know more or want to work together, you can leave me your details to start a conversation. </p>
     <%= form_with scope: :contact_form, url: contact_form_index_path, method: :post, local: true, class: "container contact", id: "contact-form" do |form| %>
       <div class="form-group">
         <%= form.text_field :name, class: "form-control", placeholder: "Name" %>
