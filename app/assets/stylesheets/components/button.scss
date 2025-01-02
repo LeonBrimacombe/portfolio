@@ -1,4 +1,5 @@
 .button-primary {
+    margin-top: 16px;
     text-decoration: none;
     color: $call-to-action;
     border: 2px solid $call-to-action;
@@ -8,6 +9,7 @@
 }
 
 .button-secondary {
+  margin-top: 16px;
   text-decoration: none;
   color: $text;
   border: 1px solid $text;

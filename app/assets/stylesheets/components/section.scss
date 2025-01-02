@@ -32,7 +32,7 @@ section {
 
 #about {
   height: 95vh;
-  width: 40vw;
+  width: 32vw;
   .icon {
     margin-top: 32px;
   }
@@ -50,10 +50,10 @@ section {
       width: 30vw;
     }
     .project-left {
-      align-self: flex-start;
+      float: left;
     }
     .project-right {
-      align-self: flex-end;
+      float: right;
       text-align: right;
     }
     img {

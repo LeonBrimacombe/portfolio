@@ -1,8 +1,10 @@
 .icon {
   font-size: 150px;
-  background: -webkit-linear-gradient(rgba(95, 53, 122, 0.2), rgba(30, 141, 185, 0.2));
+  background: -webkit-linear-gradient(rgba(95, 53, 122, 0.3), rgba(30, 141, 185, 0.3));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+
 }
 
 h1 {
