@@ -1,5 +1,6 @@
 #home {
   height: 100vh;
+  align-items: center;
   .title-section{
     display: flex;
     align-items: center;
@@ -20,8 +21,8 @@
   .intro {
     width: 50vw;
     display: flex;
-    text-align: center;
-    align-self: center;
+    text-align: left;
+    align-self: justify;
   }
 }
 

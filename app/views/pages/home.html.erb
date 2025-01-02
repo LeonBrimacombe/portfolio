@@ -7,14 +7,6 @@
       </div>
       <%= image_tag 'headshot.jpg', :alt =>"leon-headshot-photo"%>
     </div>
-
-    <p class="intro">
-      Fueled by a commitment to lifelong learning, I have found a love for the ever-evolving world of software. For me, programming sits at the intersection of of creativity, methodical thinking, and steep-learning curves, providing the perfect challenge. Whether it's building custom solutions or diving into new frameworks, each obstacle gives a new opportunity to innovate.
-    </p>
-    <div>
-      <%= link_to "More background", :class => "button"%>
-      <%= link_to "View my work ↓", "#projects", :class => "button"%>
-    </div>
   </section>
 
   <nav class="navigation-bar">
@@ -39,18 +31,12 @@
 
 
   <section id="about">
-    <div id="background">
-      <h3> Background </h3>
-      <p>
-        Hello! I am Leon, an enthusiastic career changer with three years experience in supply chain, geering up to focus my expertise and data background into development. In my career so far, I have discovered the key to my professional fulfillment is continuous learning. When I first encountered programming, using R for statistical analysis in my Economics degree, I spent hours beyond the scope of the course creating descriptive statistics visuals. The ability to translate intricate information into digestible material opened the gateway for my love of code.
-      </p>
-      <p>
-        Fast forward to my career in supply chain, I began with data analytics using DAX and SQL and three years later ended up building my first custom platform for internal use. Over the following 4 months I developed three platforms and began collaborating with other business functions across sales, finance and operations to support their diverse needs.
-      </p>
-      <p>
-        Having little resources and relying heavily on my own curiosity and research ability was energising and ultimately ignited my move into software engineering. Landing me where I am today, with 450+ hours of coding under my belt and a BCS-accredited certificate in Web Development with AI, I am excited to focus my unique operational perspective into a dynamic development team where I can continue learning and have an impact.
-      </p>
-    </div>
+    <p class="intro">
+      Fueled by a commitment to learning and growth, I have found a love for the ever-evolving world of software. For me, programming sits at the intersection of creativity, methodical thinking, and steep-learning curves, providing the perfect challenge. Whether it's building custom solutions or diving into new frameworks, each obstacle gives a new opportunity to innovate and re-invent.
+    </p>
+
+    <%= link_to "More about me", "", :class => "button-primary", :id => "about-toggles"%>
+    <%= link_to "View my work ↓", "#projects", :class => "button-primary"%>
 
     <div class="tech-stack">
       <div class="tech">
@@ -87,6 +73,18 @@
         <%= image_tag "https://static.wixstatic.com/media/816382_bd664a10b4ec4239b7f9739dbd210863~mv2.png/v1/fill/w_420,h_420,al_c,lg_1,q_85/816382_bd664a10b4ec4239b7f9739dbd210863~mv2.png", :alt => "PowerFX-logo"%>
         <p>PowerFX</p>
       </div>
+    </div>
+    <div id="background">
+      <h3> Background </h3>
+      <p>
+        Hello! I am Leon, an enthusiastic career changer with three years experience in supply chain, geering up to focus my expertise and data background into development. In my career so far, I have discovered the key to my professional fulfillment is continuous learning. When I first encountered programming, using R for statistical analysis in my Economics degree, I spent hours beyond the scope of the course creating descriptive statistics visuals. The ability to translate intricate information into digestible material opened the gateway for my love of code.
+      </p>
+      <p>
+        Fast forward to my career in supply chain, I began with data analytics using DAX and SQL and three years later ended up building my first custom platform for internal use. Over the following 4 months I developed three platforms and began collaborating with other business functions across sales, finance and operations to support their diverse needs.
+      </p>
+      <p>
+        Having little resources and relying heavily on my own curiosity and research ability was energising and ultimately ignited my move into software engineering. Landing me where I am today, with 450+ hours of coding under my belt and a BCS-accredited certificate in Web Development with AI, I am excited to focus my unique operational perspective into a dynamic development team where I can continue learning and have an impact.
+      </p>
     </div>
   </section>
 
