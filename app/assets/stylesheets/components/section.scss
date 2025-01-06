@@ -26,7 +26,7 @@ section {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      height: 30vh;
+      height: 25vh;
     }
   }
 }
@@ -57,6 +57,13 @@ section {
       margin: 0px 24px;
       height: 25vh;
       width: 30vw;
+      .project-title{
+        display: flex;
+        justify-content: start;
+        img {
+          height: 10px;
+        }
+      }
     }
     .project-left {
       float: left;
