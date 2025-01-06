@@ -26,16 +26,20 @@ section {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      height: 40vh;
+      height: 30vh;
     }
   }
 }
 
 #about {
-  height: 95vh;
-  width: 32vw;
+  display: block;
+  overflow: auto;
+  width: 100vw;
+  .intro {
+    width: 40vw;
+  }
   .icon {
-    margin-top: 32px;
+    margin-top: 40px;
   }
 }
 
@@ -62,7 +66,7 @@ section {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      height: 48vh;
+      height: 60vh;
     }
   }
 }
@@ -77,6 +81,10 @@ section {
       margin-left: 16px;
     }
   }
+}
+
+#contact {
+  width: 40vw;
 }
 
 #footer {
