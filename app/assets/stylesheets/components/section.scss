@@ -36,10 +36,14 @@ section {
   overflow: auto;
   width: 100vw;
   .intro {
-    width: 40vw;
+    width: 50vw;
+    text-align: center;
   }
   .icon {
     margin-top: 40px;
+  }
+  #background {
+    width: 50vw;
   }
 }
 
