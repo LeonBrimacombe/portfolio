@@ -10,6 +10,7 @@ section {
   height: 100vh;
   background-color: $background;
   background-image: $gradient;
+  background-size: cover;
   .title-section{
     display: flex;
     align-items: center;
@@ -49,6 +50,7 @@ section {
 #projects {
   margin-top: 40px;
   background-image: $gradient;
+  background-size: cover;
   .project{
     display: flex;
     align-items: center;
@@ -105,6 +107,7 @@ section {
 #footer {
   height: 10vh;
   background-image: $gradient;
+  background-size: cover;
   .socials {
     .link-icons {
       font-size: 40px;
