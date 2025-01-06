@@ -32,8 +32,6 @@ section {
 }
 
 #about {
-  display: block;
-  overflow: auto;
   width: 100vw;
   .intro {
     width: 50vw;
@@ -44,11 +42,13 @@ section {
   }
   #background {
     width: 50vw;
+    text-align: center;
   }
 }
 
 #projects {
   margin-top: 40px;
+  background-image: $gradient;
   .project{
     display: flex;
     align-items: center;
@@ -59,9 +59,11 @@ section {
       width: 30vw;
       .project-title{
         display: flex;
+        align-items: center;
         justify-content: start;
         img {
           height: 10px;
+          margin: 0px 16px;
         }
       }
     }
@@ -95,7 +97,9 @@ section {
 }
 
 #contact {
-  width: 40vw;
+  p {
+    width: 40vw;
+  }
 }
 
 #footer {
