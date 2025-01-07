@@ -5,7 +5,7 @@ class ApplicationMailer < ActionMailer::Base
 
   # def simple_message(first_name, last_name, email, message)
   #  mail(
-  #    "reply-to": email_address_with_name(email, "#{first_name} #{last_name}"),
+  #    "reply-to": email_address_with_name(email, "#{name}"),
   #    subject: "New contact form message",
   #    body: message
   #  )

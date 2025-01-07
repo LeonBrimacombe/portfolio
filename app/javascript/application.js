@@ -1,5 +1,6 @@
 // Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
 // show-hide background copy
+
 const show_link = document.getElementById('show-toggle');
 const hide_link = document.getElementById('hide-toggle');
 
@@ -26,4 +27,17 @@ function toggleVisbility(element) {
   else {
     element.style.display = 'block';
   };
-}
+};
+
+/* Scroll-dependent animation */
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate');
+      entry.target.classList.add('glow');
+    }
+  });
+});
+
+const techs = document.querySelectorAll('.tech');
+techs.forEach((element) => observer.observe(element))
