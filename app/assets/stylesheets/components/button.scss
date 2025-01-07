@@ -17,3 +17,15 @@
   padding: 8px 16px;
   margin: 16px 8px;
 }
+
+.button-primary:hover {
+  background-color: $call-to-action;
+  color: $background;
+  border: none;
+}
+
+.button-secondary:hover {
+  background-color: $text;
+  color: $background;
+  border: none;
+}

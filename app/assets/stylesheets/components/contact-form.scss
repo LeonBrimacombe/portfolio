@@ -4,19 +4,20 @@
   align-items: center;
   justify-content: center;
   width: 40vw;
+  height: 1rem;
   padding: 16px 20px;
   border: none;
   border-radius: 4px;
   input {
-    background-color: $background-secondary;
-    color: $text;
-    margin: 16px 0px;
+    background-color: $text;
+    color: $background-secondary;
+    margin: 8px 0px;
     width: 40vw;
     border: none;
   }
   textarea {
-    background-color: $background-secondary;
-    color: $text;
+    background-color: $text;
+    color: $background-secondary;
     margin: 16px 0px;
     width: 40vw;
     height: 5rem;
