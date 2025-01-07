@@ -10,5 +10,16 @@
   input {
     background-color: $background-secondary;
     color: $text;
+    margin: 16px 0px;
+    width: 40vw;
+    border: none;
+  }
+  textarea {
+    background-color: $background-secondary;
+    color: $text;
+    margin: 16px 0px;
+    width: 40vw;
+    height: 5rem;
+    border: none;
   }
 }
