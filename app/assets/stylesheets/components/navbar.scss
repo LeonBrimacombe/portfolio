@@ -16,7 +16,8 @@ nav {
     li {
       float: right;
       .active {
-        background-color: $background;
+        color: $call-to-action;
+        transition: 0.3s;
       }
       a{
         display: block;

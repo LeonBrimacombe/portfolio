@@ -11,24 +11,16 @@ section {
   background-color: $background;
   background-image: $gradient;
   background-size: cover;
-  .title-section{
-    display: flex;
-    align-items: center;
-    .title {
-      text-align: right;
-      width: 60%;
-      padding-right: 15px;
-      h2 {
-        font-weight: 100;
-      }
-    }
-    img {
-      box-shadow: 5px 5px 3px black;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      height: 25vh;
-    }
+  width: 60%;
+  text-align: center;
+  h1 {
+    line-height: 0.8;
+    margin: 0px;
+    text-shadow: 5px 5px 3px black;
+  }
+  h2 {
+    font-weight: lighter;
+    text-transform: uppercase;
   }
 }
 
@@ -55,7 +47,7 @@ section {
   .project{
     display: flex;
     align-items: center;
-    margin: 56px 0px;
+    margin: 72px 0px;
     .project-info{
       margin: 0px 24px;
       height: 25vh;
@@ -82,7 +74,7 @@ section {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      height: 60vh;
+      height: 50vh;
     }
   }
 }

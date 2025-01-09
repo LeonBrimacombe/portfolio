@@ -1,11 +1,9 @@
 const show_link = document.getElementById('show-toggle');
 const hide_link = document.getElementById('hide-toggle');
 
-console.log(show_link);
-
 show_link.onclick = function(event) {
-  console.log("Show link clicked");
   const div = document.getElementById('background');
+  console.log("Show link clicked");
   toggleVisibility(event, div);
   toggleVisibility(event, show_link);
   toggleVisibility(event, hide_link);
