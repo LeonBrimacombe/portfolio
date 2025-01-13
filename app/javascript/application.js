@@ -2,6 +2,6 @@
 // import React from "react";
 // import ReactDOM from "react-dom";
 
-import "components/anchor-links";
-import "components/show-hide";
+import "components/show_hide";
+import "components/anchor_links";
 import "components/navbar";

@@ -3,7 +3,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 0px;
 }
 
 #home {
@@ -13,6 +12,7 @@ section {
   background-size: cover;
   width: 60%;
   text-align: center;
+  padding: 40px 0px;
   h1 {
     line-height: 0.8;
     margin: 0px;
@@ -26,6 +26,7 @@ section {
 
 #about {
   width: 100vw;
+  padding: 40px 0px;
   .intro {
     width: 40vw;
     text-align: center;
@@ -44,6 +45,7 @@ section {
   padding: 40px 0px;
   background-image: $gradient;
   background-size: cover;
+  padding: 40px 0px;
   .project{
     display: flex;
     align-items: center;
@@ -80,6 +82,7 @@ section {
 }
 
 #wips {
+  padding: 40px 0px;
   .wips {
     display: flex;
     align-items: center;
@@ -92,6 +95,7 @@ section {
 }
 
 #contact {
+  padding: 40px 0px;
   p {
     width: 40vw;
   }
@@ -99,8 +103,7 @@ section {
 
 #footer {
   height: 10vh;
-  background-image: rgba(30, 141, 185, 0.3);
-  background-size: cover;
+  background-color: rgba(30, 141, 185, 0.3);
   .socials {
     .link-icons {
       font-size: 40px;
