@@ -1,9 +1,12 @@
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll("nav ul li");
+const elements = document.querySelectorAll(".animate");
+
 
 window.onscroll = () => {
   var current = "";
 
+  // set section attributes
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
     console.log("Section changed")
@@ -11,11 +14,20 @@ window.onscroll = () => {
       current = section.getAttribute("id"); }
   });
 
+  // navbar item active
   navLi.forEach((li) => {
     li.classList.remove("active");
     if (li.classList.contains(current)) {
       li.classList.add("active");
       console.log("Navbar active changed")
+    }
+  });
+
+  // animations trigger
+  element.forEach((element) => {
+    element.classList.remove("slide");
+    if (element.classList.contains(current)) {
+      element.classList.add("slide");
     }
   });
 };
