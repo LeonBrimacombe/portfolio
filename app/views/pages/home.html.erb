@@ -1,32 +1,31 @@
+<section id="home">
+  <h1>Leon</h1>
+  <h1>Brimacombe</h1>
+  <h2>Fullstack Developer</h2>
+  <%= link_to "View my work ↓", "#projects", :class => "button-primary"%>
+</section>
+
+<nav>
+  <ul class="navigation">
+    <li class="contact">
+      <a href="#contact">Contact</a>
+    </li>
+
+    <li class="projects">
+      <a href="#projects">Projects</a>
+    </li>
+
+    <li class="about">
+      <a href="#about">About</a>
+    </li>
+
+    <li class="home">
+      <a href="#home">Home</a>
+    </li>
+  </ul>
+</nav>
+
 <div class="container">
-  <section id="home">
-    <h1>Leon</h1>
-    <h1>Brimacombe</h1>
-    <h2>Fullstack Developer</h2>
-    <%= link_to "View my work ↓", "#projects", :class => "button-primary"%>
-  </section>
-
-  <nav>
-    <ul class="navigation">
-      <li class="contact">
-        <a href="#contact">Contact</a>
-      </li>
-
-      <li class="projects">
-        <a href="#projects">Projects</a>
-      </li>
-
-      <li class="about">
-        <a href="#about">About</a>
-      </li>
-
-      <li class="home">
-        <a href="#home">Home</a>
-      </li>
-    </ul>
-  </nav>
-
-
   <section id="about">
     <i class="fa-solid fa-circle-user icon animate delay-3"></i>
     <p class="intro">
@@ -92,14 +91,16 @@
     <h3>Projects</h3>
 
     <div class="project project-left">
-      <%= image_tag "property-sphere.png", :alt => "property-sphere-landing-page"%>
+      <div class="project-image">
+        <%= image_tag "property-sphere.png", :alt => "property-sphere-landing-page"%>
+      </div>
       <div class="project-info">
         <div class="project-title">
           <h4>Property Sphere</h4>
           <%= image_tag "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png", :alt => "ruby-logo", :style => "width: 15px; height:15px;"%>
         </div>
         <p>A centralised search and organisational tool that scrapes major sites and leverages location APIs to offer advanced filtering</p>
-        <p>Led a team of four from conception to deployment</p>
+        <p><strong>Led a team of four from conception to deployment</strong></p>
         <%= link_to "Live App", "https://property-sphere-f0c399e44756.herokuapp.com/", :class => "button-primary"%>
         <%= link_to "Learn More", "https://github.com/LeonBrimacombe/property-sphere", :class => "button-secondary"%>
       </div>
@@ -112,15 +113,19 @@
           <%= image_tag "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png", :alt => "ruby-logo", :style => "width: 15px; height:15px;"%>
         </div>
         <p>A market place for users to list and rent tools in their local area</p>
-        <p>Led a team of four from conception to deployment</p>
+        <p><strong>Led a team of four from conception to deployment</strong></p>
         <%= link_to "Live App", "", :class => "button-primary"%>
         <%= link_to "Learn More", "https://github.com/LeonBrimacombe/tool-shared", :class => "button-secondary"%>
       </div>
-      <%= image_tag "tool-shared.jpg", :alt => "tool-shared-landing-page"%>
+      <div class="project-image">
+        <%= image_tag "tool-shared.jpg", :alt => "tool-shared-landing-page"%>
+      </div>
     </div>
 
     <div class="project project-left">
-      <%= image_tag "tool-shared.jpg", :alt => "tool-shared-landing-page"%>
+      <div class="project-image">
+        <%= image_tag "tool-shared.jpg", :alt => "tool-shared-landing-page"%>
+      </div>
       <div class="project-info">
         <div class="project-title">
           <h4>Sales Profitability Calculator</h4>
@@ -129,7 +134,7 @@
         <div>
           <p>A customer-facing sales tool displaying profit comparisons for home versus competitor brands.</p>
           <p>Used across a 45-person sales team, team member inputs populate a sales agreement, that is signed and emailed to customer in-app. </p>
-          <p>Sole developer from conception to deployment</p>
+          <p><strong>Sole developer from conception to deployment</strong></p>
         </div>
       </div>
     </div>
@@ -143,9 +148,11 @@
         </div>
         <p>A internal stock ordering portal that takes customer orders and output details in an email to the fulfilment team.</p>
         <p>Used across a 45-person sales team, and integrated into teams for user convenience</p>
-        <p>Sole developer from conception to deployment</p>
+        <p><strong>Sole developer from conception to deployment</strong></p>
       </div>
-      <%= image_tag "stock-request.jpg", :alt => "tool-shared-landing-page"%>
+      <div class="project-image">
+        <%= image_tag "stock-request.jpg", :alt => "tool-shared-landing-page"%>
+      </div>
     </div>
   </section>
 
@@ -154,7 +161,7 @@
     <div class="wips">
       <i class="fa-solid fa-clipboard-check icon"></i>
       <div>
-        <p>Currently working on a freelance Python platform with Django showing users their homes energy consumption accessed via In-home Dispay (IHD) APIs.</p>
+        <p>Currently working on a freelance <strong>Python</strong> platform with <strong>Django</strong> showing users their homes energy consumption accessed via In-home Dispay (IHD) APIs.</p>
         <p>To be integrated with clients technical product.</p>
       </div>
     </div>

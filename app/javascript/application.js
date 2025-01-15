@@ -4,4 +4,4 @@
 
 import "components/show_hide";
 import "components/anchor_links";
-import "components/navbar";
+import "components/section_responses";

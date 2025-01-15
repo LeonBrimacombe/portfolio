@@ -24,9 +24,9 @@ window.onscroll = () => {
   });
 
   // animations trigger
-  element.forEach((element) => {
+  elements.forEach((element) => {
     element.classList.remove("slide");
-    if (element.classList.contains(current)) {
+    if (current.contains(element)) {
       element.classList.add("slide");
     }
   });

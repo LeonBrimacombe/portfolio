@@ -1,6 +1,6 @@
 .icon {
   font-size: 150px;
-  color: rgba(121, 68, 154, 0.13);
+  color: rgba($gradient, 0.8);
 }
 
 h1 {
@@ -22,10 +22,10 @@ h3 {
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: 0.4rem;
 }
 
 p {
   font-weight: lighter;
-  font-size: 1.8rem;
+  font-size: 0.2rem;
 }

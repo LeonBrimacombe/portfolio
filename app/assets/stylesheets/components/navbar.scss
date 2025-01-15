@@ -8,10 +8,6 @@ nav {
   height: 3rem;
   width: 100vw;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
-  .active {
-    color: $call-to-action;
-    transition: 0.3s;
-  }
   ul {
     list-style-type: none;
     margin: 0;
@@ -19,6 +15,10 @@ nav {
     overflow: hidden;
     li {
       float: right;
+      .active {
+        color: $call-to-action;
+        transition: 0.3s;
+      }
       a{
         display: block;
         color: $text;
@@ -31,6 +31,5 @@ nav {
         background-color: #111;
       }
     }
-
   }
 }

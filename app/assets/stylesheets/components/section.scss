@@ -7,10 +7,10 @@ section {
 
 #home {
   height: 100vh;
+  width: 100vw;
   background-color: $background;
   background-image: $gradient;
   background-size: cover;
-  width: 60%;
   text-align: center;
   padding: 40px 0px;
   h1 {
@@ -52,7 +52,6 @@ section {
     margin: 72px 0px;
     .project-info{
       margin: 0px 24px;
-      height: 25vh;
       width: 30vw;
       .project-title{
         display: flex;
@@ -61,6 +60,7 @@ section {
         img {
           height: 10px;
           margin: 0px 16px;
+          opacity: 0.8;
         }
       }
     }
@@ -71,12 +71,21 @@ section {
       float: right;
       text-align: right;
     }
-    img {
-      box-shadow: 5px 5px 3px black;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      height: 50vh;
+    .project-image{
+      width: 60vw;
+      img {
+        box-shadow: 5px 5px 3px black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.8;
+        width: 100%;
+      };
+      img:hover {
+        opacity: 1;
+        width: 90%;
+        transition: 0.3s;
+      }
     }
   }
 }
@@ -98,7 +107,7 @@ section {
 
 #footer {
   height: 10vh;
-  background-color: rgba(30, 141, 185, 0.3);
+  background-color: rgba($gradient, 0.8);
   .socials {
     .link-icons {
       font-size: 40px;
