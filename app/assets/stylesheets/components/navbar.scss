@@ -4,6 +4,7 @@ nav {
   align-items: center;
   background-color: $background-secondary;
   position: sticky;
+  z-index: 1;
   top: 0;
   height: 3rem;
   width: 100vw;
