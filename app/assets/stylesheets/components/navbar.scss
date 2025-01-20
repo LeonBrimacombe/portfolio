@@ -17,10 +17,10 @@ nav {
     li {
       float: right;
       .active {
-        color: $call-to-action;
+        color: $call-to-action !important;
         transition: 0.3s;
       }
-      a{
+      a {
         display: block;
         color: $text;
         text-align: center;

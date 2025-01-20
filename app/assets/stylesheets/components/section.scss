@@ -7,7 +7,7 @@ section {
 
 #home {
   height: 100vh;
-  width: 100vw;
+  width: 100dvw;
   background-color: $background;
   background-image: $gradient;
   background-size: cover;
@@ -16,17 +16,17 @@ section {
 }
 
 #about {
-  width: 100vw;
+  width: 100dvw;
   padding: 40px 0px;
   .intro {
-    width: 40vw;
+    width: 40dvw;
     text-align: center;
   }
   .icon {
     margin-top: 40px;
   }
   #background {
-    width: 50vw;
+    width: 50dvw;
     text-align: center;
   }
 }
@@ -44,7 +44,7 @@ section {
     height: 60vh;
     .project-info{
       margin: 0px 24px;
-      width: 30vw;
+      width: 30dvw;
       .project-title{
         display: flex;
         align-items: center;
@@ -64,7 +64,7 @@ section {
       text-align: right;
     }
     .project-image{
-      width: 60vw;
+      width: 60dvw;
       img {
         box-shadow: 5px 5px 3px black;
         display: block;
@@ -93,12 +93,12 @@ section {
     }
   }
   p {
-    width: 40vw;
+    width: 40dvw;
   }
 }
 
 #footer {
-  height: 10vh;
+  height: 10dvh;
   background-color: $gradient;
   .socials {
     .link-icons {
