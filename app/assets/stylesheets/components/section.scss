@@ -84,11 +84,12 @@ section {
         margin-left: auto;
         margin-right: auto;
         opacity: 0.8;
-        height: 90%;
+        width: 100%;
+        max-width: 700px
       };
       img:hover {
         opacity: 1;
-        height: 95%;
+        width: 95%;
         transition: 0.3s;
       }
     }
@@ -107,12 +108,13 @@ section {
   }
   p {
     width: 40dvw;
+    text-align: center;
   }
 }
 
 #footer {
   height: 10dvh;
-  background-color: $gradient;
+  background-image: $gradient;
   .socials {
     .link-icons {
       font-size: 40px;
