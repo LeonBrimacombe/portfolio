@@ -2,6 +2,11 @@
   font-size: 150px;
   color: $gradient;
 }
+.icon:hover {
+  font-size: 200px;
+  text-shadow: 5px 5px 3px black;
+  transition: 0.1s;
+}
 
 h1 {
   text-transform: uppercase;
