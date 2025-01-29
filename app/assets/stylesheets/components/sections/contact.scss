@@ -1,0 +1,42 @@
+#contact {
+  padding: 40px 0px;
+  .wips {
+    display: flex;
+    align-items: center;
+    margin: 24px 0px;
+    p {
+      margin-left: 16px;
+    }
+  }
+  p {
+    width: 40dvw;
+    text-align: center;
+  };
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40dvw;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    input {
+      .form-control {
+        background-color: $text;
+        color: $background-secondary;
+        margin: 8px 0px;
+        width: 40dvw;
+        border: none;
+      }
+    }
+    textarea {
+      background-color: $text;
+      color: $background-secondary;
+      margin: 16px 0px;
+      width: 40dvw;
+      height: 5rem;
+      border: none;
+    }
+  }
+}

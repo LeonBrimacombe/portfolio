@@ -1,0 +1,14 @@
+#footer {
+  height: 10dvh;
+  background-image: $gradient;
+  .socials {
+    .link-icons {
+      font-size: 40px;
+      color: $text;
+      margin: 8px;
+    }
+  }
+  p {
+    margin: 0;
+  }
+}

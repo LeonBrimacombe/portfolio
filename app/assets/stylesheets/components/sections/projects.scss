@@ -1,0 +1,51 @@
+#projects {
+  margin-top: 40px;
+  padding: 40px 0px;
+  background-image: $gradient;
+  background-size: cover;
+  padding: 40px 0px;
+  .project{
+    display: flex;
+    align-items: center;
+    margin: 72px 0px;
+    height: 60vh;
+    .project-info{
+      margin: 0px 24px;
+      width: 30dvw;
+      .project-title{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        img {
+          height: 10px;
+          margin: 0px 16px;
+          opacity: 0.8;
+        }
+      }
+    }
+    .project-left {
+      float: left;
+    }
+    .project-right {
+      float: right;
+      text-align: right;
+    }
+    .project-image{
+      width: 60dvw;
+      img {
+        box-shadow: 5px 5px 3px black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.8;
+        width: 100%;
+        max-width: 700px
+      };
+      img:hover {
+        opacity: 1;
+        width: 95%;
+        transition: 0.3s;
+      }
+    }
+  }
+}

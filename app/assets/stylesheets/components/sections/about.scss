@@ -1,0 +1,28 @@
+#about {
+  width: 100dvw;
+  padding: 40px 0px;
+  .about-intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .intro {
+      width: 40dvw;
+      text-align: center;
+    }
+    .icon {
+      margin-top: 40px;
+    }
+  }
+
+  #background {
+    width: 50dvw;
+    text-align: center;
+  }
+  @media (max-width: 1500px) {
+    width: 1100px;
+  }
+
+  @media (max-width: 1200px) {
+    width: auto;
+  }
+}
